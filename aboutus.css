@@ -1,0 +1,229 @@
+*{
+ margin : 0;
+ padding : 0;
+ font-family : Century Gothic;
+ text-decoration: bold;
+ }
+nav
+{
+width : 100%;
+height : 100px;
+display : flex;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-bottom : 2px solid black;
+}
+.logo
+{
+width : 10%;
+}
+.logo img
+{
+width : 40%;
+margin-left : 45%;
+margin-top : 20px;
+border-radius : 100%; 
+border : 1px solid black; 
+}
+.heading 
+{
+width : 19%;
+border-radius: 30px;
+margin-top : 10px;
+margin-bottom : 15px;
+border : 2px solid #fff;
+}
+.heading h1
+{
+color : #fff;
+line-height : 70px;
+margin-left : 11%;
+
+}
+.heading:hover
+{
+ background : #fff;   
+}
+.heading a
+{
+    text-decoration: none;
+}
+.heading a h1:hover
+{
+    color : blueviolet;
+}
+.main
+{
+width : 70%;
+height : 100px;
+float : right;
+}
+
+ul{
+    float : right;
+    list-style-type : none;
+    margin-top : 40px;
+}
+ul li{
+display : inline-block;
+margin-right : 40px;
+font-weight : bold;
+}
+ul li a{
+    text-decoration : none;
+    color :rgb(74,13,143);
+    padding : 5px 0.2px;
+    transition : 0.5s ease;
+}
+ul li a:hover
+{
+    color : #fff;
+}
+
+ul li a.active{
+    border-bottom: 2px solid rgb(74,13,143);
+    color : rgb(74,13,143);
+}
+ul li a.active:hover
+{
+ color : #fff;
+ border-bottom-color : #fff;
+}
+ul li a.ABOUTUS{
+    border : 2px solid rgb(74,13,143);
+    padding : 4px 14px;
+    color : rgb(74,13,143);
+}
+ul li a.ABOUTUS:hover
+{
+    background-color: #fff;
+    color : rgb(255, 0, 128);
+    border-color : rgb(255, 0, 128);
+}
+.description 
+  {
+  width : 100%;
+  display : flex;
+  }
+.description div
+{
+width : 450px;
+height : 500px;
+margin  : 10px;
+border-radius : 20px;
+border : 2px solid black; 
+}
+.rollno7
+{
+    background: #deddd5;
+}
+.rollno8
+{
+    background: #deddd5;
+}
+.rollno9
+{
+    background: #deddd5;
+}
+
+.rollno7 nav
+{
+width : 100%;
+height : 50px;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-radius : 20px 20px 0 0;
+line-height : 50px;
+}
+.rollno8 nav
+{
+width : 100%;
+height : 50px;
+background :linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-radius : 20px 20px 0 0;
+line-height : 50px;
+}
+.rollno9 nav
+{
+width : 100%;
+height : 50px;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-radius : 20px 20px 0 0;
+line-height : 50px;
+}
+.conclusion
+{
+width : 70%;
+height : 300px;
+margin : 0px 0px 20px 200px; 
+border-radius : 20px;
+border : 2px solid black;
+background : #deddd5;
+}
+.conclusion nav
+{
+width : 100%;
+height : 50px;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-radius : 20px 20px 0 0;
+line-height : 50px;
+    
+}
+.rollno7 img
+{
+width : 150px;
+height : 150px;
+margin : 10px 0 0 120px;
+border : 1px solid black;
+border-radius :20px; 
+}
+.rollno8 img
+{
+width : 150px;
+height : 150px;
+margin : 10px 0 0 120px;
+border : 1px solid black;
+border-radius :20px; 
+}
+.rollno9 img
+{
+width : 150px;
+height : 150px;
+margin : 10px 0 0 120px;
+border : 1px solid black;
+border-radius :20px; 
+}
+.rollno7 p
+{
+margin : 10px 10px 10px 20px;
+}
+.rollno8 p
+{
+margin : 10px 10px 10px 20px;
+}
+.rollno9 p
+{
+margin : 10px 10px 10px 20px;
+}
+.rollno7 nav h2
+{
+color : #fff;
+margin-left: 140px;
+}
+.rollno8 nav h2
+{
+color : #fff;
+margin-left: 140px;
+}
+.rollno9 nav h2
+{
+color : #fff;
+margin-left: 140px;
+}
+.conclusion nav h2 
+{
+    color : #fff;
+    margin-left: 350px;
+}
+.conclusion p
+{
+    margin : 10px;
+}

@@ -1,0 +1,239 @@
+*{
+ margin : 0;
+ padding : 0;
+ font-family : Century Gothic;
+ text-decoration: bold;
+ }
+nav
+{
+width : 100%;
+height : 100px;
+display : flex;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-bottom : 1px solid black;
+}
+.logo
+{
+width : 10%;
+}
+.logo img
+{
+width : 40%;
+margin-left : 45%;
+margin-top : 20px;
+border-radius : 100%; 
+border : 1px solid black; 
+}
+.heading 
+{
+width : 19%;
+border-radius: 30px;
+margin-top : 10px;
+margin-bottom : 15px;
+border : 2px solid #fff;
+}
+.heading h1
+{
+color : #fff;
+line-height : 70px;
+margin-left : 11%;
+}
+.heading:hover
+{
+ background : #fff;   
+}
+.heading h1
+{
+color : #fff;
+line-height : 70px;
+margin-left : 11%;
+}
+.heading a
+{
+    text-decoration: none;
+}
+.heading a h1:hover
+{
+    color : blueviolet;
+}
+.main
+{
+width : 70%;
+height : 100px;
+float : right;
+}
+
+ul{
+    float : right;
+    list-style-type : none;
+    margin-top : 40px;
+}
+ul li{
+display : inline-block;
+margin-right : 40px;
+font-weight : bold;
+}
+ul li a{
+    text-decoration : none;
+    color :rgb(74,13,143);
+    padding : 5px 0.2px;
+    transition : 0.5s ease;
+}
+ul li a:hover
+{
+    color : #fff;
+}
+
+ul li a.active{
+    border-bottom: 2px solid rgb(74,13,143);
+    color : rgb(74,13,143);
+}
+ul li a.active:hover
+{
+ color : #fff;
+ border-bottom-color : #fff;
+}
+ul li a.ABOUTUS{
+    border : 2px solid rgb(74,13,143);
+    padding : 4px 14px;
+    color : rgb(74,13,143);
+}
+ul li a.ABOUTUS:hover
+{
+    background-color: #fff;
+    color : rgb(255, 0, 128);
+    border-color : rgb(255, 0, 128);
+}
+header
+{
+    background :linear-gradient(135deg,rgb(0,0,0) 0%,rgb(255,255, 255)100%);
+    height: 93%;
+}
+.news
+{
+border : 1px solid black;
+width : 40%;
+background : #deddd5;
+height : 40%;
+margin : 1%;
+border-radius : 20px;
+}
+.news div h2
+{
+line-height : 35px;
+color: #fff;
+margin-left : 40%; 
+}
+.news p
+{
+margin : 10px;
+}
+
+.requirement
+{
+display : flex;
+width : 100%;
+height : 80%;
+}
+.news div
+{
+width : 100%;
+height : 20%;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-radius : 20px 20px 0 0;
+}
+.reviews
+{
+margin : 1%;
+background : #deddd5;
+float : right;
+height : 100%;
+width : 20%;
+border-radius : 20px;
+border : 1px solid black;
+}
+.reviews div
+{
+width : 100%;
+height : 10%;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-radius : 20px 20px 0 0;
+}
+.image img
+{
+width : 100%;
+height : 200px;
+border-radius : 5px;
+}
+.reviews div h2
+{
+line-height : 40px;
+color: #fff;
+margin-left : 35%; 
+}
+.reviews p
+{
+margin: 155px 10px 0px 10px;
+}
+.profit
+{
+margin-top: 75px;
+    margin-left : -30px;
+float : right ;
+height : 60%;
+width : 33%;
+border-radius : 20px;
+border : 1px solid black;
+background : #deddd5;
+}
+.profit div
+{
+width : 100%;
+height : 15%;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-radius : 20px 20px 0 0;
+}
+.profit div h2
+{
+line-height : 40px;
+color: #fff;
+margin-left : 40%; 
+}
+.profit img
+{
+width : 100%;
+height : 85%;
+border-radius : 0 0 20px 20px;
+}
+.recently
+{
+display :flex;
+margin-top : 260px;
+margin-left : -500px;
+margin-right : 50px;
+float : left;
+width : 40%;
+height : 50%;
+border-radius: 20px;    
+background : #deddd5;
+    border : 1px solid black;
+}
+.recently div
+{
+width : 100%;
+height : 18%;
+background : linear-gradient(135deg,rgb(74,13,143) 0%,rgb(255, 0, 128)100%);
+border-radius : 20px 20px 0 0;
+line-height : 50px;
+    border-bottom : 1px solid black;
+}
+.recently div h2
+{
+    color : #fff;
+    margin-left : 100px;
+}
+.recently p
+{
+    margin: 0px 10px 10px 50px;
+}
+

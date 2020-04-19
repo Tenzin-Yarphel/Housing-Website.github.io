@@ -1,0 +1,55 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+header
+{
+    background : linear-gradient(135deg,rgb(0, 0, 0) 0%,rgb(255,255, 255)100%);
+}
+.image1
+{
+width : 95%;
+display: flex;
+border : 1px solid black;
+margin : 10px 20px 0 20px;
+border-radius : 20px;
+    background :   linear-gradient(135deg,rgb(67, 125, 31) 0%,rgb(10, 21, 143)100%);
+}
+.image1 img
+{   
+    width : 500px;
+    height : 400px;
+    margin : 20px 0px 20px 100px;
+    border-radius : 20px;
+}
+.in
+{
+    display : flex;
+    width : 500px;
+    height : 100px;
+    line-height : 100px;
+    border : 2px solid black;
+    padding-bottom : 20px;
+    margin : 10px 0 0 60px;
+    background : #fff;
+    }
+.in h2
+{
+    width : 120px;
+    height : 75px;
+    background : lightgreen;
+    line-height: 75px;
+    border : 2px solid black;
+    border-radius : 50px;
+    margin : 20px 0 0 40px;
+    padding-left : 30px;
+}
+.in h3
+{  
+    width : 300px;
+    height : 120px;
+    line-height : 100px;
+    margin : 0 0 0 40px;
+    border-left: 2px solid black;
+    padding-left : 30px;
+}
